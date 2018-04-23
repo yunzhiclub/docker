@@ -1,3 +1,6 @@
+# docker 地址
+registry.cn-beijing.aliyuncs.com/mengyunzhi/thinkphp:development
+
 # 官方源
 本image使用的为php官方源，版本为5.6-apache。官方地址为：[https://hub.docker.com/_/php/](php docker官方链接)
 
