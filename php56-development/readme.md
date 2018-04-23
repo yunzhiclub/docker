@@ -13,3 +13,6 @@
 * 选择Use path mappings
 * 设置本机的文件夹与docker文件夹的对应路径
 * 浏览器安装xdebug插件
+
+# 参考项目
+[https://github.com/yunzhiclub/paper_approving](https://github.com/yunzhiclub/paper_approving)
