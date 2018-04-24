@@ -1,5 +1,5 @@
 # 设置源 
-FROM php:5.6-apache
+FROM php:5.6-fpm
 # 使用 apt安装软件
 RUN apt-get update && apt-get install -y vim libpng12-dev libjpeg-dev libpq-dev \
 	&& rm -rf /var/lib/apt/lists/* \
