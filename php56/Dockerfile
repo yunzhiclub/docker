@@ -1,7 +1,7 @@
 # 设置源 
 FROM php:5.6-apache
 # 使用 apt安装软件
-RUN apt-get update && apt-get install -y vim libpng12-dev libjpeg-dev libpq-dev nmap \
+RUN apt-get update && apt-get install -y vim libpng12-dev libjpeg-dev libpq-dev \
 	&& rm -rf /var/lib/apt/lists/* \
 	# 使用docker安装php扩展
 	&& docker-php-ext-configure gd --with-png-dir=/usr --with-jpeg-dir=/usr \
