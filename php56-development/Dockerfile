@@ -3,7 +3,6 @@ FROM registry.cn-beijing.aliyuncs.com/mengyunzhi/thinkphp:latest
 
 # 安装xdebug 参考：https://gist.github.com/chadrien/c90927ec2d160ffea9c4
 # https://blog.philipphauer.de/debug-php-docker-container-idea-phpstorm/
-RUN docker-php-ext-install fpm
 RUN pecl install xdebug-2.5.5
 RUN echo "zend_extension=$(find /usr/local/lib/php/extensions/ -name xdebug.so)" > /usr/local/etc/php/php.ini
 RUN echo 'xdebug.remote_log=/var/log/xdebug.log' >> /usr/local/etc/php/php.ini \
