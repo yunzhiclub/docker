@@ -6,6 +6,7 @@ https://hub.docker.com/_/nginx/
 
 <hr />
 # 地址
+`docker pull registry.cn-beijing.aliyuncs.com/mengyunzhi/nginx`
 
 # 版本
 * 1.13.12
