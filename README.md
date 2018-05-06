@@ -8,4 +8,4 @@
 
 #### 版本号：
 * 3.2 生产环境
-* 3.2_development 开发环境
+* 3.2-development 开发环境
