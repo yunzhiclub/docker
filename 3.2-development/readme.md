@@ -1,5 +1,5 @@
 # docker 地址
-registry.cn-beijing.aliyuncs.com/mengyunzhi/thinkphp:development
+registry.cn-beijing.aliyuncs.com/mengyunzhi/thinkphp:3.2-development
 操作系统:debian jessie
 
 # 官方源
@@ -8,6 +8,9 @@ registry.cn-beijing.aliyuncs.com/mengyunzhi/thinkphp:development
 # 变量
 `{APACHE_DOCUMENT_ROOT}`  apache文档根目录。
 其它变量设置请参数官方文档
+
+# 端口
+80, 443
 
 # xdebug使用方法
 * 将本地项目文件夹映射到docker文件夹。
