@@ -11,7 +11,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 RUN cd /tmp && curl -sS https://getcomposer.org/installer | php &&  mv composer.phar /usr/local/bin/composer 
 # 复制composer.json 防止使用ROOT权限安装报错。安装laravel
 COPY ./composer.json /root/.composer/
-RUN	composer global require "laravel/installer:" && composer global require "predis/predis:1.*" && export PATH=$PATH:$HOME/.composer/vendor/bin
+RUN	composer global require "laravel/installer:5.6.*" && composer global require "predis/predis:1.*" && export PATH=$PATH:$HOME/.composer/vendor/bin
 
 # 为根文件夹设置owner
 RUN chown -R www-data:www-data /var/www/html/
