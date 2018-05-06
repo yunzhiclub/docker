@@ -1,5 +1,5 @@
 # 设置源 
-FROM registry.cn-beijing.aliyuncs.com/mengyunzhi/thinkphp:latest
+FROM registry.cn-beijing.aliyuncs.com/mengyunzhi/thinkphp:3.2
 
 # 安装xdebug 参考：https://gist.github.com/chadrien/c90927ec2d160ffea9c4
 # https://blog.philipphauer.de/debug-php-docker-container-idea-phpstorm/
