@@ -2,7 +2,7 @@
 
 <hr />
 # 地址
-
+`docker pull registry.cn-beijing.aliyuncs.com/mengyunzhi/redis`
 
 # 版本
 * 3.2 官方3.2版本的clone
