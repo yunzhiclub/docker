@@ -2,6 +2,7 @@
 
 <hr />
 # 地址
+`docker pull registry.cn-beijing.aliyuncs.com/mengyunzhi/mysql`
 
 # 版本号
 * 5.7
