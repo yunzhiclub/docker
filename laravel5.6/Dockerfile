@@ -12,6 +12,9 @@ RUN cd /tmp && curl -sS https://getcomposer.org/installer | php &&  mv composer.
 COPY ./composer.json /root/.composer/
 RUN	composer global require "laravel/installer" && export PATH=$PATH:$HOME/.composer/vendor/bin
 
+# 为根文件夹设置owner
+RUN chown -R www-data:www-data /var/www/html/
+
 # 定义document_root路径(默认值为/var/www/html)
 ENV APACHE_DOCUMENT_ROOT /var/www/html
 
