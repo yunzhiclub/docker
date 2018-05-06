@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y vim libpng12-dev libjpeg-dev libpq-dev 
 	&& pecl install -o -f redis \
 	&& rm -rf /tmp/pear \
 	&& docker-php-ext-enable redis \
+	&& chown -R www-data:www-data /var/www/html \
 	# 设置环境变量
 	&& sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf \
 	&& sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
