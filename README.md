@@ -3,6 +3,10 @@
 java + maven
 用于springmvc的项目build及运行
 
+# 地址
+
+`sudo docker pull registry.cn-beijing.aliyuncs.com/mengyunzhi/java:[镜像版本号]`
+
 # 应用说明
 
 默认工作路径:
