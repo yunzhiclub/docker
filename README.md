@@ -3,6 +3,9 @@
 ### 适用于thinkphp
 <hr />
 
+## 环境变量
+`APACHE_DOCUMENT_ROOT` apache工作目录，即index.php位置
+
 #### 公网地址：
 `docker pull registry.cn-beijing.aliyuncs.com/mengyunzhi/thinkphp`
 
