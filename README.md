@@ -3,6 +3,9 @@
 ### 适用于thinkphp
 <hr />
 
+## 默认设置
+workdir: /var/www/html
+
 ## 环境变量
 `APACHE_DOCUMENT_ROOT` apache工作目录，即index.php位置
 
