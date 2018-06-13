@@ -6,6 +6,7 @@
 ## 默认设置
 workdir: /var/www/html
 
+
 ## 环境变量
 `APACHE_DOCUMENT_ROOT` apache工作目录，即index.php位置
 
@@ -15,3 +16,4 @@ workdir: /var/www/html
 #### 版本号：
 * 3.2 生产环境
 * 3.2-development 开发环境
+* 5 
