@@ -10,3 +10,7 @@ https://hub.docker.com/_/nginx/
 
 # 版本
 * 1.13.12
+
+# 配置信息
+文件夹
+`/etc/nginx/conf.d/`
