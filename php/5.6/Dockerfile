@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y vim libpng-dev libjpeg-dev libpq-dev \
 	&& rm -rf /var/lib/apt/lists/* \
 	# 使用docker安装php扩展
 	&& docker-php-ext-configure gd --with-png-dir=/usr --with-jpeg-dir=/usr \
-	&& docker-php-ext-install gd pdo_mysql \
+	&& docker-php-ext-install gd pdo_mysql mysql mysqli \
 	&& pecl install -o -f redis \
 	&& rm -rf /tmp/pear \
 	&& docker-php-ext-enable redis \
