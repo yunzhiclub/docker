@@ -10,5 +10,7 @@ RUN echo 'xdebug.remote_log=/var/log/xdebug.log' >> /usr/local/etc/php/php.ini \
     &&  echo 'xdebug.remote_handler=dbgp' >> /usr/local/etc/php/php.ini \
     &&  echo 'xdebug.profiler_enable=0' >> /usr/local/etc/php/php.ini \
     &&  echo 'xdebug.profiler_output_dir="/var/app/Public"' >> /usr/local/etc/php/php.ini \
+    &&  echo 'xdebug.remote_host=host.docker.internal' >> /usr/local/etc/php/php.ini \
     &&  echo 'xdebug.remote_port=9000' >> /usr/local/etc/php/php.ini \
+    &&  echo 'xdebug.idekey=PHPSTORM' >> /usr/local/etc/php/php.ini \
     &&  echo 'xdebug.remote_enable=1' >> /usr/local/etc/php/php.ini
